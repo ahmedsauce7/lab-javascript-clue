@@ -137,6 +137,6 @@ function pickMystery() {
 
 function revealMystery(envelope) {
     const {suspect, room, weapon} = envelope;
-    return `${suspect.firstName} ${suspect.lastName} killed Mr. Boddy using the ${weapon.name} in the${room.name}!`; 
+    return `${suspect.firstName} ${suspect.lastName} killed Mr. Boddy using the ${weapon.name} in the ${room.name}!`; 
 }
 
